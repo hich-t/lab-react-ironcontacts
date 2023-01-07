@@ -20,9 +20,9 @@ const App = () => {
     setContact(pop);
   };
 
-const deleteContact = (id) => {
+const deleteContact = (index, element) => {
 
-  setContact(contacts.filter((contacts) => contacts.id !== id  ))
+setContact(contact.filter((e,i) => i !== index))
 
 }
 
@@ -86,7 +86,7 @@ const deleteContact = (id) => {
                   <h1>{e.name}</h1>
                 </td>
                 <td>
-                  <h1>{e.popularity}</h1>
+                  <h1>{e.popularity.toFixed(2)}</h1>
                 </td>
                 <td>
                   {e.wonEmmy ? (
@@ -103,7 +103,7 @@ const deleteContact = (id) => {
                   )}
                 </td>
                 <td>
-                  <img className='del'   onClick={() => deleteContact() }   src="./delete.png" alt="" />
+                  <img className='del'   onClick={() => deleteContact(i) }   src="./delete.png" alt="" />
                 </td>
               </tr>
             ))}

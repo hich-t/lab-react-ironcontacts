@@ -1,13 +1,18 @@
 
 
+body{
 
+background-image: url("../public/background.png");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
 
 .App {
 
   color: white;
 display:flex;
 justify-content: center;
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
 .frame{
@@ -18,8 +23,8 @@ justify-content: center;
   border-radius: 10px;
   margin: 70px;
   width: 700px;
-  background-color: rgb(62, 62, 62);
-  box-shadow: 1px 2px 20px rgb(0, 0, 0);
+  background-color: rgb(55, 32, 32);
+  box-shadow: 1px 2px 20px rgb(255, 255, 255);
 
 
 }
@@ -30,13 +35,14 @@ justify-content: center;
 }
 
 table{
+  table-layout: fixed;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
 align-content: center;
 align-items: center;
-margin: 10px;
+margin: 20px;
 }
 
 .sadicon{
@@ -58,7 +64,7 @@ thead{
 
 td{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+  width: 100px;
   text-align: center;
   padding: 10px;
   font-size: 10px;
@@ -78,7 +84,6 @@ td{
   margin-bottom: 20px;
   width: 250px;
   background-color: rgb(62, 62, 62);}
-  border: 2px solid black;
 
 th{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
