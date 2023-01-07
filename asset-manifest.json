@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/lab-react-ironcontacts/static/css/main.108293d1.css",
+    "main.js": "/lab-react-ironcontacts/static/js/main.6ababbd2.js",
+    "static/js/787.feb5a3bc.chunk.js": "/lab-react-ironcontacts/static/js/787.feb5a3bc.chunk.js",
+    "static/media/background.png": "/lab-react-ironcontacts/static/media/background.0e983732fac19a0c1ae7.png",
+    "index.html": "/lab-react-ironcontacts/index.html",
+    "main.108293d1.css.map": "/lab-react-ironcontacts/static/css/main.108293d1.css.map",
+    "main.6ababbd2.js.map": "/lab-react-ironcontacts/static/js/main.6ababbd2.js.map",
+    "787.feb5a3bc.chunk.js.map": "/lab-react-ironcontacts/static/js/787.feb5a3bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.108293d1.css",
+    "static/js/main.6ababbd2.js"
+  ]
+}
